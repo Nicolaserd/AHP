@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/index.css">
+</head>
+<header>
+    <h1>Matriz AHP</h1>
+</header>
+<body>
+    <section>
+        <header>
+            <h2>Criterios y opciones</h2>
+        </header>
+        <h3>Ingrese los criterios y opciones </h3>
+        <div class="numCriteriosOpciones form-inline">
+
+            <div class="form-group mb-2">
+
+            <label for="criteriosNum" class="sr-only">Numero de criterios:</label>           
+            <input type="text" id="criteriosNum" name="criteriosNum" class="form-control-plaintext" placeholder="num criterios">
+
+            </div>
+
+            <div class="form-group mb-2">
+
+            <label for="opcionesNum" class="sr-only">Numero de opciones:</label>
+            <input type="text" id="opcionesNum" name="opcionesNum" class="form-control-plaintext" placeholder="num opciones">
+
+            </div>
+
+            <button class="boton btn btn-primary mb-2" id="botonCyO">enviar</button>
+            <a href="" class="btn  mb-2"><img src="./img/cargando-flechas.png"></a>
+           
+        </div>
+        <article id = "todoOpYCri">
+            <header id="encabezadoCyO">
+
+            </header>
+            <div id="OpcionesyCriterios">
+                <div id="criterios">
+    
+                </div>
+                <div id="opciones">
+                    
+                </div>
+                
+            </div>
+        </article>
+        
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./public/bundle.js"></script>
+</body>
+</html>
